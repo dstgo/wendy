@@ -1,8 +1,57 @@
 {
   "page": {
-    "demos": {
-      "title": "演示",
-      "antd": "Ant Design Vue"
+    "backstage": {
+      "dashboard": {
+        "title": "仪表盘",
+        "analytics": "分析页",
+        "workspace": "工作台"
+      },
+      "node": {
+        "title": "节点"
+      },
+      "image": {
+        "title": "镜像"
+      },
+      "server": {
+        "title": "服务器"
+      },
+      "system": {
+        "title": "系统",
+        "account": {
+          "title": "账号"
+        },
+        "token": {
+          "title": "令牌"
+        },
+        "notify": {
+          "title": "通知"
+        }
+      }
+    },
+    "dontstarve": {
+      "home": {
+        "title": "房间"
+      },
+      "console": {
+        "title": "控制台"
+      },
+      "player": {
+        "title": "玩家"
+      },
+      "save": {
+        "title": "存档"
+      },
+      "mod": {
+        "title": "模组"
+      },
+      "job": {
+        "title": "定时任务"
+      }
+    },
+    "user": {
+      "privacy": {
+        "title": "个人设置"
+      }
     }
   }
 }

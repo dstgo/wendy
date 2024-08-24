@@ -5,7 +5,6 @@ import { getPackagesSync } from '@vben/node-utils';
 const { packages } = getPackagesSync();
 
 const allowedScopes = [
-  ...packages.map((pkg) => pkg.packageJson.name),
   'project',
   'style',
   'lint',
@@ -13,6 +12,7 @@ const allowedScopes = [
   'dev',
   'deploy',
   'other',
+  ...packages.map((pkg) => pkg.packageJson.name),
 ];
 
 // precomputed scope
@@ -141,6 +141,7 @@ const userConfig = {
         'refactor',
         'build',
         'ci',
+        'wip',
         'chore',
         'revert',
         'types',

@@ -36,6 +36,9 @@ const coreRoutes: RouteRecordRaw[] = [
     },
     name: 'Authentication',
     path: '/auth',
+    props: {
+      toolbarList: ['color', 'theme'],
+    },
     children: [
       {
         name: 'Login',

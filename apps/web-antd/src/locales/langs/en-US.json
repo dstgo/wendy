@@ -1,8 +1,57 @@
 {
   "page": {
-    "demos": {
-      "title": "Demos",
-      "antd": "Ant Design Vue"
+    "backstage": {
+      "dashboard": {
+        "title": "Dashboard",
+        "analytics": "Analysis",
+        "workspace": "Workspace"
+      },
+      "node": {
+        "title": "Node"
+      },
+      "image": {
+        "title": "Image"
+      },
+      "server": {
+        "title": "Server"
+      },
+      "system": {
+        "title": "System",
+        "account": {
+          "title": "Account"
+        },
+        "token": {
+          "title": "Token"
+        },
+        "notify": {
+          "title": "Notify"
+        }
+      }
+    },
+    "dontstarve": {
+      "home": {
+        "title": "Room"
+      },
+      "console": {
+        "title": "Console"
+      },
+      "player": {
+        "title": "Player"
+      },
+      "save": {
+        "title": "Save"
+      },
+      "mod": {
+        "title": "Mod"
+      },
+      "job": {
+        "title": "Task"
+      }
+    },
+    "user": {
+      "privacy": {
+        "title": "Privacy"
+      }
     }
   }
 }

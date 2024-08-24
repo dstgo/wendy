@@ -9,7 +9,21 @@ import type { DeepPartial } from '@vben-core/typings';
  */
 
 function defineOverridesPreferences(preferences: DeepPartial<Preferences>) {
-  return preferences;
+  return {
+    app: {
+      enableCheckUpdates: false,
+      name: 'Wendy Panel',
+    },
+    copyright: {
+      companyName: 'dstgo',
+      companySiteLink: 'https://github.com/dstgo',
+    },
+    theme: {
+      radius: '0.25',
+      semiDarkSidebar: false,
+    },
+    ...preferences,
+  };
 }
 
 export { defineOverridesPreferences };

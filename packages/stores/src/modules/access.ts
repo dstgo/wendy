@@ -23,10 +23,6 @@ interface AccessState {
    */
   accessToken: AccessToken;
   /**
-   * 是否已经检查过权限
-   */
-  isAccessChecked: boolean;
-  /**
    * 登录是否过期
    */
   loginExpired: boolean;
@@ -53,9 +49,6 @@ export const useAccessStore = defineStore('core-access', {
     setAccessToken(token: AccessToken) {
       this.accessToken = token;
     },
-    setIsAccessChecked(isAccessChecked: boolean) {
-      this.isAccessChecked = isAccessChecked;
-    },
     setLoginExpired(loginExpired: boolean) {
       this.loginExpired = loginExpired;
     },
@@ -72,7 +65,6 @@ export const useAccessStore = defineStore('core-access', {
     accessMenus: [],
     accessRoutes: [],
     accessToken: null,
-    isAccessChecked: false,
     loginExpired: false,
     refreshToken: null,
   }),

@@ -1,18 +1,18 @@
 {
   "name": "@vben/web-antd",
-  "version": "5.1.1",
-  "homepage": "https://vben.pro",
-  "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
+  "version": "0.0.0-beta",
+  "homepage": "https://wendy.dstgo.cn",
+  "bugs": "https://github.com/dstgo/wendy/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
+    "url": "git+https://github.com/dstgo/wendy.git",
     "directory": "apps/web-antd"
   },
   "license": "MIT",
   "author": {
-    "name": "vben",
-    "email": "ann.vben@gmail.com",
-    "url": "https://github.com/anncwb"
+    "name": "dstgo",
+    "email": "dstgo@qq.com",
+    "url": "https://github.com/dstgo"
   },
   "type": "module",
   "scripts": {
@@ -40,9 +40,9 @@
     "@vben/styles": "workspace:*",
     "@vben/types": "workspace:*",
     "@vben/utils": "workspace:*",
-    "@vueuse/core": "^11.0.1",
+    "@vueuse/core": "^11.0.0",
     "ant-design-vue": "^4.2.3",
-    "dayjs": "^1.11.13",
+    "dayjs": "^1.11.12",
     "pinia": "2.2.2",
     "vue": "^3.4.38",
     "vue-router": "^4.4.3"

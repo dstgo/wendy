@@ -18,9 +18,6 @@
     "./antd": {
       "default": "./src/antd/index.css"
     },
-    "./ele": {
-      "default": "./src/ele/index.css"
-    },
     "./global": {
       "default": "./src/global/index.scss"
     }
