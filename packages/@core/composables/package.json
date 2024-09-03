@@ -36,9 +36,9 @@
   },
   "dependencies": {
     "@vben-core/shared": "workspace:*",
-    "@vueuse/core": "^11.0.0",
-    "radix-vue": "^1.9.4",
-    "sortablejs": "^1.15.2",
+    "@vueuse/core": "^11.0.3",
+    "radix-vue": "^1.9.5",
+    "sortablejs": "^1.15.3",
     "vue": "^3.4.38"
   },
   "devDependencies": {
